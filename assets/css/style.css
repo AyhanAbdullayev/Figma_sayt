@@ -1,0 +1,681 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+.navbar,.Hero-section{
+    background-color: #F5F7FA;
+}
+.navbar{
+    width: 100%;
+    height: 84px;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 154px;
+    height: 24px;
+}
+.navbar-inner,.Hero-section .content{ 
+    width: 80%;
+    margin: auto;
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-menu{
+    color: #18191F;
+    font-weight: 500;
+    line-height: 24px;
+}
+.navbar-menu,.navbar-log-in-button{
+    display: flex;
+    align-items: center;
+    gap: 56px;
+    list-style: none;
+}
+.navbar-log-in-button{
+    line-height: 20px;
+    gap: 14px;
+    width: 182px;
+    height: 40px;
+}
+.navbar-login{
+    color: #4CAF4F;
+    text-decoration: none;
+    font-size: 14px;
+    width: 77px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+}
+.navbar-signup{
+    width: 91px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #4CAF4F ;
+    border-radius: 6px;
+    background-color: #4CAF4F;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 14px; 
+}
+.Hero-section{
+    gap: 104px;
+    width: 100%;
+    height: 89%;
+}
+.content{
+    width: 20%;
+    gap: 32px;
+}
+.text{
+    width: 50%;
+    gap: 16px;
+}
+.title,.achievment-content h1{
+    width: 100%;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 76px;
+    color: #4D4D4D;
+}
+.title-color,.achievment-content h1 span{
+    color: #4CAF4F;
+}
+.parag,.achievment-content p{
+    width: 100%;
+    font-weight: 400;
+    line-height: 24px;
+    color: #717171;
+    margin-top: 20px;
+}
+.img{
+    width: 35%;
+}
+.Hero-section-btn,.unclock-content-btn,.Calender-btn{
+    width: 128px;
+    height: 52px;
+    border-radius: 4px;
+    background-color: #4CAF4F;
+    gap: 10px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 500;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.clients{
+    width: 70%;
+    gap: 30px 0;
+}
+.Clients .clients{
+    width: 80%;
+    margin: auto;
+}
+.Clients{
+    width: 80%;
+    margin: auto;
+}
+.clients h1,.Community-content h1{
+    width: 100%;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #4D4D4D;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
+}
+.clients p,.Community-content p{
+    width: 100%;
+    font-weight: 400;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #717171;
+    margin-top: 10px;
+}
+.images{
+    width: 99.3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.images img{
+    width: 48px;
+    height: 48px;
+}
+.Community{
+    width: 100%;
+    gap: 16px;
+}
+.Community-content.Descroption{
+    width: 80%;
+    margin: auto;
+}
+.Community{
+    padding: 100px 0;
+}
+.photo,.photo2,.photo3{
+    width: 65px;
+    height: 56px;
+    position: relative;
+    left: 10.9%;
+}
+.photo{
+    position: relative;
+    left: 15.5%;
+}
+.photo3{
+    position: relative;
+    left: 13%;
+}
+.Membership,.National,.Clubs{
+    width: 55%;
+    border-radius: 8px;
+    padding: 24px 32px;
+}
+
+.Membership h1,.National h1,.Clubs h1{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+}
+.Descroption{
+    padding: 0 144px 0 144px;
+    box-shadow: #ABBED133;
+}
+.Membership p,.National p,.Clubs p{
+    width: 251px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: -8%;
+}
+.Descroption{
+    width: 100%;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text4,.text5{
+    position: relative;
+    left: 2.6%;
+}
+.title2,.title3{
+    position: relative;
+    left: 5%;
+}
+.title4{
+    position: relative;
+    left: 10%;
+}
+.Member,.Clubs,.National{
+    position: relative;
+}
+.National{
+    left: 9%;
+}
+.Clubs{
+    left: 8%;
+}
+.Member{
+    left: 27%;
+}
+.unclock,.Calender,.Custom{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 144px 0 144px;
+}
+.photo4{
+    width: 32%;
+    height: 433px;
+    position: relative;
+    left: 5.5%;
+} 
+.unclock-text h1,.unlock h1,.Calender-text h1{
+    width: 70%;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #4D4D4D;
+}
+.unclock-text p,.unlock p,.Calender-text p{
+    width: 70%;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #717171;
+    margin-top: 20px;
+}
+.unclock-content-btn,.Calender-btn{
+    width: 151px;
+    margin-top: 30px;
+}
+.unclock-content,.Calender-content{
+    height: 268px;
+}
+.unclock,.Calender{
+    gap: 200px;
+}
+
+.achievments{
+    width: 100%;
+    height: 280px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 64px, 144px, 64px, 144px;
+    background-color: #F5F7FA;
+    margin-top: 5%;
+}
+
+.achievment-content{
+    width: 100%;
+}
+.achievment-content h1{
+    width: 100%;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+}
+.achievment-content h1 span{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+}
+.achievment-content p{
+    font-weight: 400;
+    line-height: 24px;
+    color: #18191F;
+}
+.fans{
+    width: 30%;
+    gap: 40px;
+}
+.one-part h1,.third-part h1,.fourth-part h1{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px; 
+    color: #4D4D4D;   
+}
+.one-part p,.third-part p{
+    font-weight: 400;
+    line-height: 24px;
+    color: #717171;
+}
+.one-row,.second-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.achievment-content{
+    position: relative;
+    left: 10%;
+}
+.fans{
+    position: relative;
+    left: -26%;
+}
+.second-row{
+    margin-top: 40px;
+}
+.image2 img{
+    position: relative;
+    left: 140%;
+}
+.second-part{
+    position: relative;
+    left: 19%;
+}
+.image4 img{
+    position: relative;
+    left: 195%;
+}
+.fourth-part{
+    position: relative;
+    left: 25%;
+}
+.menu-toggle{
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border: none;
+    outline: none;
+    display: none;
+}
+.menu-toggle img{
+    width: 100%;
+    height: 100%;
+    margin-left: 15px;
+}
+
+
+.unclock{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Calender-content{
+    width: 60%;
+    height: 25%;
+}
+.Calender-btn{
+    width: 151px;
+    height: 52px;
+    padding: 14px  32px  14px  32px;
+}
+.Calender-text p{
+    width: 71%;
+}
+.Calender img{
+    margin-left: -4%;
+}
+.Custom{
+    padding: 32px 144px;
+    gap: 78px;
+    background-color: #F5F7FA;
+}
+.tesla-logo{
+    width: 326px;
+    height: 326px;
+    position: relative;
+    left: 2%;
+}
+.Custom-p{
+    font-weight: 500;
+    line-height: 24px;
+    color: #717171;
+    width: 70%;
+}
+.Custom-h3{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #4CAF4F;
+    margin-top: 1%;
+}
+
+.Custom-p2{
+    width: 100%;
+    font-weight: 400;
+    line-height: 24px;
+    color: #89939E;
+    margin-top: 1%;
+}
+.svg-logos{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2.8%;
+}
+.arrow{
+    width: 223px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.arrow h3{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #4CAF4F;
+}
+.arrow img{
+    position: relative;
+    left: 1%;
+    top: 2%;
+}
+.Custom-content{
+    position: relative;
+    left: 5%;
+}
+.Update-text h1,.Update-text p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Update-text h1{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #4D4D4D;
+}
+.Update-text p{
+    font-weight: 400;
+    line-height: 24px;
+    color: #4D4D4D;
+}
+.Update-text{
+    margin-bottom: 1%;
+    margin-top: 3%;
+}
+.parts{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 144px;
+} 
+.second-part-update,.one-part-update,.third-content-update,.third-part-update{
+    position: relative;
+}
+.one-part-update{
+    left: 11.7%;
+}
+
+.third-part-update{
+    right: 11.6%;
+}
+.one-content-update,.second-content-update,.third-content-update{
+    width: 22%;
+    height: 176px;
+}
+.one-content-update,.second-content-update,.third-content-update{
+    width: 87%;
+    height: 176px;
+    gap: 16px;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #F5F7FA;
+    position: absolute;
+    top: 67%;
+    left: 6%;
+}
+.one-part-update img,.second-part-update img,.third-part-update img{
+    position: relative;
+}
+.one-content-update p,.one-part-update h3,.second-content-update p,.second-content-update h3,.third-content-update p ,.third-content-update h3{
+    width: 285px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #717171;
+}
+.one-part-update h3,.second-content-update h3,.third-content-update h3{
+    color: #4CAF4F;
+}
+.Read-more,.Read-more2,.Read-more3{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    margin-top: 7%;
+}
+.Read-more img,.Read-more2 img,.Read-more3 img{
+    position: relative;
+    right: 26%;
+}
+.Footer{
+    width: 100%;
+    margin-top: 12%;
+}
+.first-part{
+    width: 100%;
+    padding: 32px 0px;
+    gap: 32px;
+    background-color: #F5F7FA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.first-part h1{
+    width: 887px;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 76px;
+    align-items: center;
+    color: #263238;
+    position: relative;
+    left: 5.7%;
+}
+.Footer-button a{
+    width: 100%;
+    height: 52px;
+    border-radius: 4px;
+    padding: 14px 32px;
+    gap: 8px;
+    background-color: #4CAF4F;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFFFFF;
+    position: relative;
+    right: 8%;
+}
+.End{
+    width: 100%;
+    height: 328px;
+    padding: 64px 165px;
+    gap: 125px;
+    background-color: #263238;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Info{
+    width: 30%;
+    height: 189px;
+    gap: 8px;
+}
+.Social-logos{
+    width: 176px;
+    margin-top: 10%;
+}
+.Copy-right{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #F5F7FA;
+    margin-top: 12%;
+}
+.rights{
+    margin-top: 1%;
+}
+.Links{
+    width: 45%;
+    height: 200px;
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Col-1,.Col-2{
+    width: 11%;
+    height: 200px;
+    gap: 24px;
+}
+.Col-1 h3,.list-items,.Col-2 h3,.list-items-2,.Col-3 h3{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.list-items,.list-items-2{
+    font-size: 14px;
+    font-weight: 400;
+    color: #F5F7FA;
+}
+.list-items p,.list-items-2 p{
+    width: 130%;
+}
+.list-items-2 p{
+    width: 160%;
+}
+.list-items,.list-items-2{
+    margin-top: 24%;
+}
+
+.Input{
+    width: 255px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    opacity: 0.2;
+    margin-top: 7%;
+}
+.Col-3{
+    position: relative;
+    bottom: 28%;
+}
+.Input::placeholder{
+    width: 126px;
+    height: 20px;
+    position: relative;
+    left: 12px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    opacity: 1;
+    color: #D9DBE1;
+}
+.Vector{
+    width: 24%;
+    height: 24%;
+    position:absolute;
+    right: 1%;
+    top: 65%;
+    
+}
+@media(max-width:992px){
+    .navbar-menu{
+        display: none;
+    }
+    .menu-toggle{
+        display: inline-block;
+    }
+    .logo{
+        width: 120px;
+        height: 15px;
+    }
+}
