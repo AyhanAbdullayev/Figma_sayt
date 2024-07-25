@@ -7,9 +7,9 @@
     <title>Nexcent</title>
 </head>
 <body>
-    <nav class="navbar">
+    <nav class="navbar" id="navbar">
         <div class="navbar-inner">
-            <img src="./images/Logo.png" class="logo" alt="">
+            <img src="./images/Logo.svg" class="logo" alt="">
             <ul class="navbar-menu">
                 <li>Home</li>
                 <li>Service</li>
@@ -21,16 +21,26 @@
             <div class="navbar-log-in-button">
                 <a class="navbar-login" href="">Login</a>
                 <a class="navbar-signup" href="">Sign-up</a>
-                <button class="menu-toggle">
+                <button class="menu-toggle" id="m-t">
                     <img src="./images/menu-bar.png" alt="">
                 </button>
             </div> 
         </div> 
     </nav>
 
+    <div class="mobile-menu" id="mobile-menu">
+        <ul>
+            <li>Home</li>
+            <li>Service</li>
+            <li>Feature</li>
+            <li>Product</li>
+            <li>Testimional</li>
+            <li>FAQ</li>
+        </ul>
+    </div>
 
     <div class="Hero-section">
-            <div class="content">
+            <div class="content" id="text">
                 <div class="text">
                     <h1 class="title">Lessons and insights <span class="title-color">from 8 years</span></h1>
                     <p class="parag">Where to grow your business as a photographer: site or social media?</p>
@@ -275,6 +285,7 @@
             </div>
         </div>
     </div>
+    <button class="up-arrow" id="up-arrow"><img src="./images/Scroll.png" alt=""></button>
     <script src="./assets/js/script.js"></script>
 </body>
 </html>
