@@ -5,7 +5,7 @@
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
-.navbar,.Hero-section{
+.navbar,.hero-section{
     background-color: #F5F7FA;
 }
 .navbar{
@@ -18,7 +18,7 @@
     width: 154px;
     height: 24px;
 }
-.navbar-inner,.Hero-section .content{ 
+.navbar-inner,.hero-section .content{ 
     width: 80%;
     margin: auto;
     padding: 27px 0;
@@ -26,7 +26,7 @@
     align-items: center;
     justify-content: space-between;
 }
-.Hero-section .content{
+.hero-section .content{
     padding: 100px 0;
 }
 .navbar-menu{
@@ -70,7 +70,7 @@
     text-decoration: none;
     font-size: 14px; 
 }
-.Hero-section{
+.hero-section{
     gap: 104px;
     width: 100%;
     height: 89%;
@@ -103,7 +103,7 @@
 .img{
     width: 35%;
 }
-.Hero-section-btn,.unclock-content-btn,.Calender-btn{
+.hero-section-btn,.unclock-content-btn,.calender-btn{
     width: 128px;
     height: 52px;
     border-radius: 4px;
@@ -119,19 +119,19 @@
     margin-top: 20px;
 }
 
-.clients{
+.clients-inner{
     width: 70%;
     gap: 30px 0;
 }
-.Clients .clients{
+.clients .clients-inner{
     width: 80%;
     margin: auto;
 }
-.Clients{
+.clients{
     width: 80%;
     margin: auto;
 }
-.clients h1,.Community-content h1{
+.clients-inner h1,.community-content h1{
     width: 100%;
     font-weight: 600;
     font-size: 36px;
@@ -141,10 +141,10 @@
     align-items: center;
     justify-content:center;
 }
-.clients h1{
+.clients-inner h1{
     margin-top: 2.5%;
 }
-.clients p,.Community-content p{
+.clients-inner p,.community-content p{
     width: 100%;
     font-weight: 400;
     line-height: 24px;
@@ -153,7 +153,7 @@
     justify-content: center;
     color: #717171;
 }
-.clients p{
+.clients-inner p{
     margin-top: 1%;
 }
 .images{
@@ -167,15 +167,15 @@
     width: 48px;
     height: 48px;
 }
-.Community{
+.community{
     width: 100%;
     gap: 16px;
 }
-.Community-content.Descroption{
+.community-content.descroption{
     width: 80%;
     margin: auto;
 }
-.Community{
+.community{
     padding: 100px 0;
 }
 .photo,.photo2,.photo3{
@@ -192,22 +192,22 @@
     position: relative;
     left: 13%;
 }
-.Membership,.National,.Clubs{
+.membership,.national,.clubs{
     width: 55%;
     border-radius: 8px;
     padding: 24px 32px;
 }
 
-.Membership h1,.National h1,.Clubs h1{
+.membership h1,.national h1,.clubs h1{
     font-size: 28px;
     font-weight: 700;
     line-height: 36px;
 }
-.Descroption{
+.descroption{
     padding: 0 144px 0 144px;
     box-shadow: #ABBED133;
 }
-.Membership p,.National p,.Clubs p{
+.membership p,.national p,.clubs p{
     width: 251px;
     font-size: 14px;
     line-height: 20px;
@@ -218,7 +218,7 @@
     position: relative;
     left: -8%;
 }
-.Descroption{
+.descroption{
     width: 100%;
     height: 280px;
     display: flex;
@@ -237,19 +237,19 @@
     position: relative;
     left: 10%;
 }
-.Member,.Clubs,.National{
+.member,.clubs,.national{
     position: relative;
 }
-.National{
+.national{
     left: 9%;
 }
-.Clubs{
+.clubs{
     left: 8%;
 }
-.Member{
+.member{
     left: 27%;
 }
-.unclock,.Calender,.Custom{
+.unclock,.calender,.custom{
     width: 100%;
     display: flex;
     align-items: center;
@@ -262,14 +262,14 @@
     position: relative;
     left: 5.5%;
 } 
-.unclock-text h1,.unlock h1,.Calender-text h1{
+.unclock-text h1,.unlock h1,.calender-text h1{
     width: 70%;
     font-weight: 600;
     font-size: 36px;
     line-height: 44px;
     color: #4D4D4D;
 }
-.unclock-text p,.unlock p,.Calender-text p{
+.unclock-text p,.unlock p,.calender-text p{
     width: 70%;
     font-weight: 400;
     font-size: 14px;
@@ -277,14 +277,14 @@
     color: #717171;
     margin-top: 20px;
 }
-.unclock-content-btn,.Calender-btn{
+.unclock-content-btn,.calender-btn{
     width: 151px;
     margin-top: 30px;
 }
-.unclock-content,.Calender-content{
+.unclock-content,.calender-content{
     height: 268px;
 }
-.unclock,.Calender{
+.unclock,.calender{
     gap: 200px;
 }
 
@@ -323,18 +323,18 @@
     width: 30%;
     gap: 40px;
 }
-.one-part h1,.third-part h1,.fourth-part h1{
+.part-1 h1,.part-3 h1,.part-4 h1{
     font-weight: 700;
     font-size: 28px;
     line-height: 36px; 
     color: #4D4D4D;   
 }
-.one-part p,.third-part p{
+.part-1 p,.part-3 p{
     font-weight: 400;
     line-height: 24px;
     color: #717171;
 }
-.one-row,.second-row{
+.first-row,.second-row{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -354,7 +354,7 @@
     position: relative;
     left: 140%;
 }
-.second-part{
+.part-2{
     position: relative;
     left: 19%;
 }
@@ -362,7 +362,7 @@
     position: relative;
     left: 195%;
 }
-.fourth-part{
+.part-4{
     position: relative;
     left: 25%;
 }
@@ -386,22 +386,22 @@
     align-items: center;
     justify-content: space-between;
 }
-.Calender-content{
+.calender-content{
     width: 60%;
     height: 25%;
 }
-.Calender-btn{
+.calender-btn{
     width: 151px;
     height: 52px;
     padding: 14px  32px  14px  32px;
 }
-.Calender-text p{
+.calender-text p{
     width: 71%;
 }
-.Calender img{
+.calender img{
     margin-left: -4%;
 }
-.Custom{
+.custom{
     padding: 32px 144px;
     gap: 78px;
     background-color: #F5F7FA;
@@ -412,13 +412,13 @@
     position: relative;
     left: 2%;
 }
-.Custom-p{
+.custom-p{
     font-weight: 500;
     line-height: 24px;
     color: #717171;
     width: 70%;
 }
-.Custom-h3{
+.custom-h3{
     font-weight: 600;
     font-size: 20px;
     line-height: 28px;
@@ -426,7 +426,7 @@
     margin-top: 1%;
 }
 
-.Custom-p2{
+.custom-p2{
     width: 100%;
     font-weight: 400;
     line-height: 24px;
@@ -457,27 +457,27 @@
     left: 1%;
     top: 2%;
 }
-.Custom-content{
+.custom-content{
     position: relative;
     left: 5%;
 }
-.Update-text h1,.Update-text p{
+.update-text h1,.update-text p{
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.Update-text h1{
+.update-text h1{
     font-weight: 600;
     font-size: 36px;
     line-height: 44px;
     color: #4D4D4D;
 }
-.Update-text p{
+.update-text p{
     font-weight: 400;
     line-height: 24px;
     color: #4D4D4D;
 }
-.Update-text{
+.update-text{
     margin-bottom: 1%;
     margin-top: 3%;
 }
@@ -488,21 +488,21 @@
     justify-content: space-between;
     padding: 0px 144px;
 } 
-.second-part-update,.one-part-update,.third-content-update,.third-part-update{
+.second-part-update,.first-part-update,.third-content-update,.third-part-update{
     position: relative;
 }
-.one-part-update{
+.first-part-update{
     left: 11.7%;
 }
 
 .third-part-update{
     right: 11.6%;
 }
-.one-content-update,.second-content-update,.third-content-update{
+.first-content-update,.second-content-update,.third-content-update{
     width: 22%;
     height: 176px;
 }
-.one-content-update,.second-content-update,.third-content-update{
+.first-content-update,.second-content-update,.third-content-update{
     width: 87%;
     height: 176px;
     gap: 16px;
@@ -513,10 +513,10 @@
     top: 67%;
     left: 6%;
 }
-.one-part-update img,.second-part-update img,.third-part-update img{
+.first-part-update img,.second-part-update img,.third-part-update img{
     position: relative;
 }
-.one-content-update p,.one-part-update h3,.second-content-update p,.second-content-update h3,.third-content-update p ,.third-content-update h3{
+.first-content-update p,.first-part-update h3,.second-content-update p,.second-content-update h3,.third-content-update p ,.third-content-update h3{
     width: 285px;
     font-weight: 600;
     font-size: 20px;
@@ -526,20 +526,20 @@
     justify-content: center;
     color: #717171;
 }
-.one-part-update h3,.second-content-update h3,.third-content-update h3{
+.first-part-update h3,.second-content-update h3,.third-content-update h3{
     color: #4CAF4F;
 }
-.Read-more,.Read-more2,.Read-more3{
+.read-more,.read-more2,.read-more3{
     display: flex;
     align-items: start;
     justify-content: start;
     margin-top: 7%;
 }
-.Read-more img,.Read-more2 img,.Read-more3 img{
+.read-more img,.read-more2 img,.read-more3 img{
     position: relative;
     right: 26%;
 }
-.Footer{
+.footer{
     width: 100%;
     margin-top: 12%;
 }
@@ -563,7 +563,7 @@
     position: relative;
     left: 5.7%;
 }
-.Footer-button a{
+.footer-button a{
     width: 100%;
     height: 52px;
     border-radius: 4px;
@@ -580,7 +580,7 @@
     position: relative;
     right: 8%;
 }
-.End{
+.end{
     width: 100%;
     height: 328px;
     padding: 64px 165px;
@@ -590,16 +590,16 @@
     align-items: center;
     justify-content: space-between;
 }
-.Info{
+.info{
     width: 30%;
     height: 189px;
     gap: 8px;
 }
-.Social-logos{
+.social-logos{
     width: 176px;
     margin-top: 10%;
 }
-.Copy-right{
+.copy-right{
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
@@ -609,7 +609,7 @@
 .rights{
     margin-top: 1%;
 }
-.Links{
+.links{
     width: 45%;
     height: 200px;
     gap: 30px;
@@ -617,12 +617,12 @@
     align-items: center;
     justify-content: space-between;
 }
-.Col-1,.Col-2{
+.col-1,.col-2{
     width: 11%;
     height: 200px;
     gap: 24px;
 }
-.Col-1 h3,.list-items,.Col-2 h3,.list-items-2,.Col-3 h3{
+.col-1 h3,.list-items,.col-2 h3,.list-items-2,.col-3 h3{
     font-weight: 600;
     font-size: 20px;
     line-height: 28px;
@@ -651,7 +651,7 @@
     opacity: 0.2;
     margin-top: 7%;
 }
-.Col-3{
+.col-3{
     position: relative;
     bottom: 28%;
 }
@@ -666,7 +666,7 @@
     opacity: 1;
     color: #D9DBE1;
 }
-.Vector{
+.vector{
     width: 24%;
     height: 24%;
     position:absolute;
@@ -711,7 +711,7 @@
     justify-content: center;
 }
 @media(max-width:992px){
-    .Hero-section{
+    .hero-section{
         width: 300% !important;
         height: 1300px;
     }
@@ -733,7 +733,7 @@
     }
 }
 @media(max-width:401px){
-    .Hero-section{
+    .hero-section{
         width: 397% !important ;
         height: 1300px;
     }
