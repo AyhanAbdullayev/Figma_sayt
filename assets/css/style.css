@@ -119,6 +119,7 @@
     margin-top: 20px;
 }
 
+
 .clients-inner{
     width: 70%;
     gap: 30px 0;
@@ -393,7 +394,7 @@
 .calender-btn{
     width: 151px;
     height: 52px;
-    padding: 14px  32px  14px  32px;
+    padding: 14px  3px;
 }
 .calender-text p{
     width: 71%;
@@ -643,9 +644,7 @@
     margin-top: 24%;
 }
 
-.Input{
-    width: 255px;
-    height: 40px;
+.input{
     border-radius: 8px;
     background-color: #FFFFFF;
     opacity: 0.2;
@@ -655,7 +654,7 @@
     position: relative;
     bottom: 28%;
 }
-.Input::placeholder{
+.input::placeholder{
     width: 126px;
     height: 20px;
     position: relative;
